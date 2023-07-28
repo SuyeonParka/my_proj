@@ -1,0 +1,134 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: rgb(246, 246, 246);
+}
+
+.position {
+    background: linear-gradient(225deg, #1C244C 0%, #181A20 10.42%, #191B26 88.54%, #1C244C 100%);
+    background-size: cover;
+    background-repeat : no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    margin: 0 55px;
+    display: grid;
+    grid-gap: 30px;
+}
+
+.back_button {
+    margin-left: 33px;
+    margin-top: 66px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#back_button {
+    width: 12px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.container > p {
+    font-size: 30px;
+    font-weight: 800;
+    padding: 0 0 40px;
+}
+
+.contents {
+    display: grid;
+    grid-gap: 34px;
+}
+
+.logo {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 250px;
+}
+
+.line {
+    display: grid;
+    grid-template-columns: 10px 240px;
+    grid-gap: 27px;
+}
+
+.line input {
+    font-size: 26px;
+    font-weight: 700;
+    border: none;
+    background: transparent;
+}
+
+#line {
+    width: 5px;
+}
+
+.clock {
+    display: grid;
+    grid-template-columns: 37px 30px 20px 30px;
+    align-items: center;
+}
+
+.clip{
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    grid-gap: 17px;
+    align-items: center;
+}
+
+#clock, #clip {
+    width: 20px;
+}
+
+.clip input, .clock input {
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    background: transparent;
+}
+
+.but {
+    padding-top: 120px;
+    display: grid;
+    grid-template-columns: 106px 106px;
+    grid-gap: 27px;
+    justify-content: center;
+}
+
+.but button {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(63, 63, 63);
+    background-color: rgb(246, 246, 246);
+    border-radius: 20px;
+    border: none;
+    width: 106px;
+    height: 41px;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    font-size: inherit;
+}
+
+option {
+    color: #181A20;
+}

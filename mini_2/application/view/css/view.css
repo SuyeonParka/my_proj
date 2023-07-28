@@ -1,0 +1,90 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+footer {
+    font-size: 10px;
+}
+
+.wrap {
+    min-height : 100%
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    display: grid;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    width: 50vw;
+    height: 30vh;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    margin: 30px;
+}
+
+.btn{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    font-size: 0.3rem;
+    border-radius: 5px;
+    border: 1px solid #000;
+    width: 170px;
+    height: 3vh;
+    background-color: #ecedf0;
+}
+
+/* .button>input {
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 100px;
+    height: 10px;
+    font-weight: 600;
+    font-size: 0.3rem;
+    border-radius: 5px;
+    background-color: #ecedf0;
+}  */
+
+span {
+    font-size: 0.5rem;
+}
+
+.stick {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.stay {
+    font-size: 0.3rem;
+}
+
+.lab {
+    width: 100px;
+}
+

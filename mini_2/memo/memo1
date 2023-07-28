@@ -1,0 +1,26 @@
+isset
+true, false 반환
+require_once 
+클래스로 만들어 놓은 파일을 읽어서 사용함
+오류가 났을 때 처리 계속
+in_array
+값이 배열 안에 존재하는지 확인해주는 함수
+self
+명령이 실행되는 위치의 클래스 자체를 가리킴
+현재 클래스를 가리켜야만 하는 경우 ( static 등) 에는 self사용
+explode
+문자 분할해서 배열로 저장
+ucfirst
+aaa bbb일 때 Aaa bbb 로 되고 ucword는 Aaa Bbb로 됨
+strtolower
+소문자로 변형
+
+------------
+self
+원래 호출한 컨트롤러-> 어플리케이션에서 호출한건 유저 컨트롤러
+유저 컨트롤러는 컨트롤러라는 클래스를 상속받고 있음
+this의 영역은 UserController
+modelList는 컨트롤러에 선언돼있고 private으로 선언(외부에서 접근 안됨)
+UserController에서도 modelList로 접근 불가능 그래서 this로 접근 불가능
+Controller가 가지고 있는 객체에서 접근하니까 self로 접근
+$parents로도 접근 불가능(private으로 돼잇어성)

@@ -1,0 +1,91 @@
+@charset "uft-8";
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    }
+
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Cafe24Ssurround';
+    background: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+body {
+    margin: 5vw;
+    padding: 5vh;
+    box-shadow: 10px 10px #fbc2eb;
+    border-radius: 10%;
+}
+#con {
+    border-radius: 20px;
+    font-family: 'Cafe24Ssurround';
+    width: 100%;
+    /* height: 100%; */
+    background-color: #fff;
+    padding: 2vh;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    }
+
+thead {
+    color: #655dbb;
+    text-shadow: 2px 2px 2px #bface2;
+    font-size: 20px;
+}
+
+div {
+    display: inline-block;
+    /* width: 2.5vw;
+    height: 2vh;
+    border: 1px solid #bface2;
+    border-radius: 50px; */
+}
+
+img {
+    margin: 10px;
+    width: 50vw;
+    height: 10vh;
+}
+
+.new {
+    float: right;
+    width: 15vw;
+    height: 5vh;
+    border-radius: 20px;
+    color: #423f3f;
+    border: none;
+    background: linear-gradient(to top, #ecf2ff 0%, #bface2 100%);
+}
+
+.detail_contents {
+    margin: 2vw;
+    padding: 2vh;
+}
+
+h1{
+    margin: 6vw;
+    padding: 2vh;
+}
+
+a:hover {
+    color : #bface2;
+}
+td:hover {
+    color: #bface2;
+    opacity: .5;
+}
+
+
